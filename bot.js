@@ -21,6 +21,10 @@ client.on('ready', () => {
       msg.reply("Hello!! buddy how are you?🙋🏼‍♂️");
     }
     if (msg.content === "Ak") {
+      msg.reply("Hello!! I am Ak ✌️ ");
+      msg.react("💖");
+    }if (msg.content === "Ritu") {
+      msg.reply("Hello!! I am RituRaj 😎");
       msg.react("💖");
     }if (msg.content === "bot") {
       msg.reply("Hello!! I am AK💛's Bot 🤖 ");
